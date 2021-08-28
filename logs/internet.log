@@ -1,0 +1,8 @@
+
+Pinging github.com [140.82.114.3] with 32 bytes of data:
+Reply from 140.82.114.3: bytes=32 time=39ms TTL=55
+
+Ping statistics for 140.82.114.3:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 39ms, Maximum = 39ms, Average = 39ms
