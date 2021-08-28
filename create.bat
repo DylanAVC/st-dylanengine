@@ -27,7 +27,7 @@ goto clone
 
 :RepoQYes
 cd projects
-git clone https://github.com/DylanPews/st-dylanengine-project.git
+git clone https://github.com/st-developer-owner/st-dylanengine-project.git
 if exist st-dylanengine-project (
     goto clone2
 ) else (
@@ -36,7 +36,7 @@ if exist st-dylanengine-project (
     echo "error: bat:35"
     echo "traceback:"
     echo "    Check your internet connection (-1)"
-    echo "    exception(e) fatal: unable to access 'https://github.com/DylanPews/st-dylanengine-project.git/': Could not resolve host: github.com"
+    echo "    exception(e) fatal: unable to access 'https://github.com/st-developer-owner/st-dylanengine-project.git/': Could not resolve host: github.com"
     echo "this project was canceled due to an error please check the error"
     pause
     exit
@@ -64,7 +64,7 @@ if exist %Input1% (
 
 
 :clone
-git clone https://github.com/DylanPews/st-dylanengine-project.git
+git clone https://github.com/st-developer-owner/st-dylanengine-project.git
 ren st-dylanengine-project %Input1%
 cd %Input1%
 rd .git
